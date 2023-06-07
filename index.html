@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ConfReact2023</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container__text">
+        <h1>
+          "Introducción a <span> React: </span> Construyendo tus primeras
+          interfaces interactivas"
+        </h1>
+        <p>
+          Conferencia diseñada especialmente para aquellos que se están
+          adentrando en el mundo de React. Durante la conferencia, los
+          participantes tendrán la oportunidad de adquirir los fundamentos
+          necesarios para comenzar a utilizar React y construir interfaces de
+          usuario interactivas.
+        </p>
+      </div>
+      <div class="figure">
+        <img src="/images/react-logo.png" alt="react_logo" />
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="main_img">
+        <img
+          src="./images/Business conference _Monochromatic.svg"
+          alt="imagen_conferencia"
+        />
+      </div>
+      <div class="main_text">
+        <h1 class="main_text-title">Charlas</h1>
+        <p class="text-parrafo">Fundamentos de React</p>
+        <p class="text-parrafo">Creación de interfaces interactivas</p>
+        <p class="text-parrafo">Mejores prácticas y recursos adicionales</p>
+
+        <div class="main_button">
+          <button type="submit" class="button">Ver más</button>
+        </div>
+      </div>
+    </div>
+    <form action="conexion.php" method="post" class="form">
+      <div class="form_container">
+        <label class="form_text" for="name">Nombre</label>
+        <input
+          id="mame"
+          name="name"
+          class="input"
+          type="text"
+          placeholder="Gerson Andres Ramires"
+        />
+
+        <label class="form_text" for="email">Email Address</label>
+        <input
+          id="email"
+          name="email"
+          class="input"
+          type="email"
+          placeholder="andresrios@lorem.com"
+        />
+
+        <button class="form_button" type="submit">Reservar asistencia</button>
+      </div>
+    </form>
+  </body>
+</html>

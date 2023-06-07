@@ -1,0 +1,128 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  --bg-primary: #6ADBFB;
+  --bg-light: #E3E3E3;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 8rem;
+  height: 100vh;
+  align-items: center;
+}
+
+.container span {
+  color: var(--bg-primary);
+}
+
+.container__text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  gap: 1rem;
+}
+
+.figure {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.figure img {
+  width: 450px;
+}
+.main {
+  margin: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.main_img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.main_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  width: 40%;
+  margin-right: 4rem;
+  padding: 2rem;
+  gap: 1.5rem;
+  background-color:  #bdf2ff;
+  border-radius: 2rem;
+  box-shadow: 1px 1px 1px 1px rgba(32, 32, 32, 0.3);
+}
+
+.main_text-title {
+  color: rgb(65, 6, 119);
+}
+
+.text-parrafo {
+  color: rgb(65, 6, 119);
+  font-size: 1rem;
+}
+
+.main_button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.button {
+  background-color: rgb(65, 6, 119);
+  border-radius: 10px;
+  padding: 10px 18px;
+  border: none;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  
+}
+
+.form_container {
+  background-color: #a4e7fa;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 4rem;
+  border-radius: 0.8rem;
+  box-shadow: 1px 1px 1px 1px  rgba(85, 80, 80, 0.205);
+}
+
+.form_text {
+  color: rgb(65, 6, 119);;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.input {
+  padding: 12px 30px;
+  border-radius: 6px;
+  border: solid rgba(129, 129, 129, 0.842) 1.5px;
+}
+
+.form_button {
+  background-color: rgb(65, 6, 119);
+  padding: 0.8rem ;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+}
