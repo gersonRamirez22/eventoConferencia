@@ -9,7 +9,7 @@ $DB_NAME= "conferenceDB";
 $cone = new mysqli($SERVER_NAME,$USER, $PASSWORD, $DB_NAME );
 
 // validamos si existe algun error con la base de datos
-if ($cone -> conect_error) {
+if ($cone ->  conect_error) {
     die ("Conexion Fallida: " . $cone-> conect_error );
 }
 
